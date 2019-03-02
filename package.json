@@ -1,0 +1,25 @@
+{
+  "name": "linting-template",
+  "version": "1.0.0",
+  "description": "Basic linting and files formatting for TypeScript projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier-check": "prettier --check ./**/*",
+    "prettier-format": "prettier --write ./**/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veroreinah/linting-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/veroreinah/linting-template/issues"
+  },
+  "homepage": "https://github.com/veroreinah/linting-template#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "prettier": "^1.16.4"
+  }
+}
