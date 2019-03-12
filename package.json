@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prettier-check": "prettier --check ./**/*",
-    "prettier-format": "prettier --write ./**/*"
+    "prettier-format": "prettier --write ./**/*",
+    "tslint-check": "tslint --project tslint.json ./src/**/*.ts"
   },
   "repository": {
     "type": "git",
@@ -18,8 +19,11 @@
     "url": "https://github.com/veroreinah/linting-template/issues"
   },
   "homepage": "https://github.com/veroreinah/linting-template#readme",
-  "dependencies": {},
+  "dependencies": {
+    "typescript": "^3.3.3333"
+  },
   "devDependencies": {
-    "prettier": "^1.16.4"
+    "prettier": "^1.16.4",
+    "tslint": "^5.13.1"
   }
 }

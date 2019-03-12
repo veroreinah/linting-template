@@ -18,3 +18,5 @@ function init({
 function sayHi(name) {
   return 'Result: ' + name;
 }
+
+console.debug('aaa');
