@@ -2,14 +2,25 @@
 
 Basic linting and files formatting for TypeScript projects.
 
+## HUSKY
+
+```
+npm install husky --save-dev
+```
+
+Using **husky** to add pre-commit hook that checks if all Prettier and TSLint rules are ok.
+
+If you want to skip pre-commit hook, you should add `--no-verify` flag when committing your work.
+
 ## PRETTIER
 
 ```
-npm install --save-dev prettier
+npm install prettier --save-dev
 ```
 
-Check prettier files format --> npm run prettier-check
-Format files (prettier) --> npm run prettier-format
+**Check prettier files format:** `npm run prettier-check`
+
+**Format files:** `npm run prettier-format`
 
 - Ignore files
   https://prettier.io/docs/en/ignore.html
@@ -17,10 +28,10 @@ Format files (prettier) --> npm run prettier-format
 ## TSLINT
 
 ```
-npm install --save-dev tslint
+npm install tslint --save-dev
 ```
 
-Check tslint rules --> npm run tslint-check
+**Check tslint rules:** `npm run tslint-check`
 
 - Recommended rules
   https://github.com/palantir/tslint/blob/master/src/configs/recommended.ts
@@ -29,7 +40,7 @@ Check tslint rules --> npm run tslint-check
 ## CODELYZER
 
 ```
-npm install codelyzer
+npm install codelyzer --save-dev
 ```
 
 A set of tslint rules for static code analysis of Angular TypeScript projects.
