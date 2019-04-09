@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prettier-check": "prettier --check ./**/*",
-    "prettier-format": "prettier --write ./**/*",
-    "tslint-check": "tslint --project tslint.json ./src/**/*.ts",
+    "prettier-check": "prettier --check './src/**/*.html' './src/**/*.scss'",
+    "prettier-format": "prettier --write './src/**/*'",
+    "tslint-check": "tslint --project tslint.json './src/**/*.ts'",
     "lint": "npm run prettier-check && npm run tslint-check"
   },
   "husky": {
