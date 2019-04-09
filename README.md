@@ -46,3 +46,4 @@ npm install codelyzer --save-dev
 A set of tslint rules for static code analysis of Angular TypeScript projects.
 
 - https://www.npmjs.com/package/codelyzer
+- Recommended rules https://github.com/mgechev/codelyzer#recommended-configuration
